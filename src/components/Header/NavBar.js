@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/Icons/Logo.png'
 import Search from '../../assets/Icons/search.png'
 import Sleep from '../../assets/Icons/sleep.png'
@@ -31,7 +31,7 @@ const Navbar = () => {
 
  return (
     <div className='bg-white flex justify-between md:flex-wrap md:justify-around items-center h-[78px]  mx-auto  text-primary'>
-      <NavLink to='/'><img src={Logo} alt='Site logo' className='w-[165px]' /></NavLink>
+      <Link to='/'><img src={Logo} alt='Site logo' className='w-[165px]' /></Link>
 
       <ul className='hidden md:flex'>
         {navItems.map(item => (
@@ -39,7 +39,7 @@ const Navbar = () => {
             key={item.id}
             className={`p-4 text-sm font-semibold hover:text-cyan-700 rounded-xl m-2 md:m-0 xl:m-2 cursor-pointer duration-300 ${item.text === 'Sale' ? 'text-red-500' : ''} `}
           >
-            <NavLink to={item.to}>{item.text}</NavLink>
+            <Link to={item.to}>{item.text}</Link>
           </li>
           
         ))}
@@ -65,14 +65,14 @@ const Navbar = () => {
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
-        <NavLink to='/'><img src={Logo} alt='Site logo' className='w-[300px]' /></NavLink>
+        <Link to='/'><img src={Logo} alt='Site logo' className='w-[300px]' onClick={handleNav} /></Link>
 
         {navItems.map(item => (
           <li
             key={item.id}
             className='p-4 border-b rounded-xl hover:bg-slate-300 duration-300 text-primary hover:text-black cursor-pointer border-gray-600'
           >
-            <NavLink to={item.to}>{item.text}</NavLink>
+            <Link to={item.to}>{item.text}</Link>
           </li>
         ))}
       </ul>

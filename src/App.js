@@ -1,6 +1,4 @@
 import React from "react";
-import Promotion from "./components/Header/Promotion";
-import Navbar from "./components/Header/NavBar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Pillows } from "./pages/Pillows.js";
 import { HotelBedding } from "./pages/HotelBedding.js";
@@ -8,14 +6,16 @@ import { ShopByBrand } from "./pages/ShopByBrand.js";
 import { ShopAllProducts } from "./pages/ShopAllProducts.js";
 import { PillowFinder } from "./pages/PillowFinder.js";
 import { Sale } from "./pages/Sale.js";
+import { Home } from "./components/Home/Home.js";
+import { Header } from "./components/Header/Header.js";
 
 const App = () => {
   return (
     <div>
       <Router>
-        <Promotion />
-        <Navbar />
+        <Header />
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/pillows" element={<Pillows />} />
           <Route path="/hotel-bedding" element={<HotelBedding />} />
           <Route path="/shop-by-brand" element={<ShopByBrand />} />
