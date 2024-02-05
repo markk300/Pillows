@@ -3,6 +3,7 @@ import { Hero } from './Hero'
 import { MidlePart } from './MidlePart'
 import { ProductSection } from './ProductSection'
 import { ShopNow } from './ShopNow'
+import { CardSection } from './CardSection'
 
 export const Home = () => {
   return (
@@ -14,7 +15,10 @@ export const Home = () => {
     <div className='pt-10 pb-14'>
     <ProductSection />
     </div>
+    <div className='mb-20'>
     <ShopNow />
+    </div>
+    <CardSection />
     </>
   )
 }
