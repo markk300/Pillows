@@ -2,6 +2,10 @@ import React from "react";
 import VeteranIcon from "../../assets/Icons/veteran icon.png";
 
 const Promotion = () => {
+  let offerOne = 'Buy 2 of the same pillow Save'
+  let offerTWO = 'Buy 4 of the same pillow Save'
+  let percentOne = 5+'%';
+  let precentTwo = 10+'%';
   return (
     <div className="bg-promotion text-center md:h-[40px] sm:flex items-center md:justify-between">
       
@@ -11,9 +15,8 @@ const Promotion = () => {
         </a>
       
       <div>
-        <p className="text-xs md:text-sm text-primary ">
-          <b>BUY MORE SAVE MORE.</b> Buy 2 of the same pillow Save 5%. Buy 4 of the
-          same pillow Save 10%. <a href="#" className="underline">See Details.</a>
+        <p className="rotating-text text-xs md:text-sm text-primary ">
+          <b>BUY MORE SAVE MORE.</b>{offerOne} {percentOne}.{offerTWO} {precentTwo}. <a href="#" className="underline">See Details.</a>
         </p>
       </div>
       <div>

@@ -4,6 +4,7 @@ import { MidlePart } from './MidlePart'
 import { ProductSection } from './ProductSection'
 import { ShopNow } from './ShopNow'
 import { CardSection } from './CardSection'
+import { HappySleepers } from './HappySleepers'
 
 export const Home = () => {
   return (
@@ -18,7 +19,10 @@ export const Home = () => {
     <div className='mb-20'>
     <ShopNow />
     </div>
+    <div className='mb-20'>
     <CardSection />
+    </div>
+    <HappySleepers />
     </>
   )
 }

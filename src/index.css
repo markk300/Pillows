@@ -4,6 +4,41 @@
 @tailwind components;
 @tailwind utilities;
 
+.rotating-text {
+  animation: rotateY 10s linear infinite;
+}
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.flag-icon {
+  animation: wave 2s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+      transform: rotate(0deg);
+  }
+  25% {
+      transform: rotate(10deg);
+  }
+  50% {
+      transform: rotate(0deg);
+  }
+  75% {
+      transform: rotate(-10deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
+
+
 body {
   margin: 0;
   font-family:'DM Sans'

@@ -12,7 +12,7 @@ export const ProductSection = () => {
           </h2>
         </div>
         <div className="flex justify-center">
-          <h2 className="text-primary text-[36px] font-semibold ">
+          <h2 className="text-primary text-[36px] font-semibold text-center ">
           What kind of sleeper are you?
           </h2>
         </div>
