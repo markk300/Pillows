@@ -37,6 +37,22 @@
       transform: rotate(0deg);
   }
 }
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+  color: #376D94!important;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+  color: #376D94!important;
+}
+.slick-prev:before,
+.slick-next:before {
+  right: 3% !important;
+  z-index: 1;
+  color: #376D94!important;
+}
 
 
 body {

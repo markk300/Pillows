@@ -20,6 +20,13 @@ const reviewData = [
         desc:'These are the SOFTEST and coziest pillows ever! I have to get into bed fast before my dogs take them!',
         author:'- Stephanie L.'
     },
+    {
+        id:3,
+        stars:5,
+        title:'Seriously THE best!',
+        desc:'These are the SOFTEST and coziest pillows ever! I have to get into bed fast before my dogs take them!',
+        author:'- Stephanie L.'
+    },
 ]
 
 export default reviewData;
