@@ -73,7 +73,7 @@ export const ProductSection = () => {
             {products.map((product) => (
               <div key={product.id}>
                 <div className="w-full">
-                  <img src={product.imgSrc}></img>
+                  <img src={product.imgSrc} alt={product.headingTxt}></img>
                   <h2 className="text-[#122230] text-[17px] text-wrap">
                     {product.headingTxt}
                   </h2>
