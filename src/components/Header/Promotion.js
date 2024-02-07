@@ -9,18 +9,18 @@ const Promotion = () => {
   return (
     <div className="bg-promotion text-center md:h-[40px] sm:flex items-center md:justify-between">
       
-        <a href="#" className="text-center sm:flex items-center md:pl-5">
+        <button className="text-center sm:flex items-center md:pl-5">
           <img src={VeteranIcon} alt="veteran icon " className="w-8 md:w-7 md:mr-3 inline-block" />
           <p className="text-base text-primary sm:text-xs md:text-sm md:font-semibold  ">Veteran Owned Business</p>
-        </a>
+        </button>
       
       <div>
         <p className="rotating-text text-xs md:text-sm text-primary ">
-          <b>BUY MORE SAVE MORE.</b>{offerOne} {percentOne}.{offerTWO} {precentTwo}. <a href="#" className="underline">See Details.</a>
+          <b>BUY MORE SAVE MORE.</b>{offerOne} {percentOne}.{offerTWO} {precentTwo}. <button className="underline">See Details.</button>
         </p>
       </div>
       <div>
-        <a href="#" className="pr-5 text-primary text-xs md:text-sm font-medium">Contact Us</a>
+        <button className="pr-5 text-primary text-xs md:text-sm font-medium">Contact Us</button>
       </div>
     </div>
   );
