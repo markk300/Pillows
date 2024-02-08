@@ -1,3 +1,16 @@
+
+# Pillows Website
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
+![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
+
+## Welcome to the Pillows website! This project is built using React.js and Tailwind CSS.
+
+## Introduction
+
+ The Pillows website is designed to showcase a variety of pillows and help users explore different types, colors, and sizes of pillows available for purchase. This website offers a user-friendly interface built with React.js for dynamic interactions and Tailwind CSS for responsive styling.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
