@@ -11,7 +11,7 @@ export const HappySleepers = () => {
   const settings = {
     centerMode: true,
     slidesToShow: 3,
-    centerPadding: '20px',
+    centerPadding: '0px',
     speed: 500,
     slidesToScroll: 1,
     arrows: true,
@@ -54,12 +54,12 @@ export const HappySleepers = () => {
         <div className='slider-container items-center  mt-5 md:mt-20 text-center md:justify-center  '>
         <Slider {...settings} >
             {reviewData.map((data) =>(
-                <div key={data.id}  className='w-[333px]'>
+                <div key={data.id}  className='sm:px-0 md:px-0 lg:px-12 xl:px-20'>
                     <div className='pb-3 md:pb-8'>
                     <StarsComponent stars={data.stars}/>
                     </div>
                     <h1 className='text-primary font-bold text-[22px] pb-2'>{data.title}</h1>
-                    <p className='text-[12px] pb-3 text-wrap '>{data.desc}</p>
+                    <p className='text-[12px] pb-3 text-wrap  '>{data.desc}</p>
                     <h2 className='text-[#406C93] italic mb-3'>{data.author}</h2>
                 </div>
             ))}
