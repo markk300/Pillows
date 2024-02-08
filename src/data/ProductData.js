@@ -35,7 +35,22 @@ const products = [
         headingTxt:'Down Alternative Eco Standard Pillow',
         support:'MEDIUM SUPPORT',
         price:'44.99'
-    }
+    },{
+        id:4,
+        imgSrc:Product3,
+        whereused:'',
+        headingTxt:'Holiday Inn Express ® ',
+        support:'SUPPORT',
+        price:'68.99'
+    },
+    {
+        id:3,
+        imgSrc:Product2,
+        whereused:'',
+        headingTxt:'Holiday Inn',
+        support:'SUPPORT',
+        price:'61.99'
+    },
 ]
 
 export default products;

@@ -59,7 +59,7 @@ export const HappySleepers = () => {
                     <StarsComponent stars={data.stars}/>
                     </div>
                     <h1 className='text-primary font-bold text-[22px] pb-2'>{data.title}</h1>
-                    <p className='text-[12px] pb-3 text-wrap  '>{data.desc}</p>
+                    <p className='text-[14px] pb-3 text-wrap  '>{data.desc}</p>
                     <h2 className='text-[#406C93] italic mb-3'>{data.author}</h2>
                 </div>
             ))}

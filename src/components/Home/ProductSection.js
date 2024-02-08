@@ -11,7 +11,7 @@ export const ProductSection = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
 
     responsive: [
       {
@@ -72,7 +72,7 @@ export const ProductSection = () => {
           <Slider {...settings}>
             {products.map((product) => (
               <div key={product.id}>
-                <div className="w-full">
+                <div className="">
                   <img src={product.imgSrc} alt={product.headingTxt}></img>
                   <h2 className="text-[#122230] text-[17px] text-wrap">
                     {product.headingTxt}
