@@ -21,11 +21,18 @@ const reviewData = [
         author:'- Stephanie L.'
     },
     {
-        id:3,
-        stars:5,
+        id:4,
+        stars:4,
         title:'Seriously THE best!',
-        desc:'These are the SOFTEST and coziest pillows ever! I have to get into bed fast before my dogs take them!',
-        author:'- Stephanie L.'
+        desc:'I have to get into bed fast before my dogs take them!These are the SOFTEST and coziest pillows ever!',
+        author:'- Jack M.'
+    },
+    {
+        id:5,
+        stars:3,
+        title:'THE best!',
+        desc:'I have to get into bed fast before my dogs take them! I was really shocked that the pillow kept its fluff this long.',
+        author:'- Mark M.'
     },
 ]
 
